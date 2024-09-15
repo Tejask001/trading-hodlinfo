@@ -1,0 +1,110 @@
+.platform-price {
+    display: block;
+    width: 100%;
+    overflow-x: auto
+}
+
+.platform-price-table {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 30px;
+    border-collapse: separate;
+    border-spacing: 0 1em;
+    margin: 0;
+    color: #fff
+}
+
+.platform-price-table h4 {
+    font-size: 28px;
+    white-space: nowrap;
+    margin: 0;
+}
+
+.platform-price-table td,
+.platform-price-table th {
+    vertical-align: top;
+    display: table-cell;
+    padding: 15px 0;
+}
+
+@media screen and (max-width: 425px) {
+
+    .platform-price-table td,
+    .platform-price-table th {
+        padding: .45rem
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .platform-price-table th h4 {
+        font-size: 15px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .platform-price-table td h4 {
+        font-size: 18px;
+        white-space: nowrap
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .platform-price-table td h4 {
+        font-size: 15px
+    }
+}
+
+.platform-price-table thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit
+}
+
+.platform-price-table thead tr {
+    display: table-row;
+    vertical-align: inherit
+}
+
+.platform-price-table thead tr h4 {
+    color: #767676
+}
+
+.platform-price-table tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit
+}
+
+.platform-price-table tbody tr {
+    border-radius: 10px;
+    display: table-row;
+    vertical-align: inherit
+}
+
+.platform-price-table tbody tr td {
+    text-align: center
+}
+
+.platform-price-table tbody tr td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px
+}
+
+.platform-price-table tbody tr td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px
+}
+
+.platform a {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    text-decoration: none
+}
+
+.platform h4 {
+    font-size: 24px
+}
